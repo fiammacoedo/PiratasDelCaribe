@@ -111,6 +111,11 @@ object jackSparrow{  // hereda de pirata
 	method robar(unIngrediente){
 		ingredientes.add(unIngrediente)
 	}
+	
+	method serHerido(){
+		poderDePelea /= 2
+		inteligencia /= 2
+	}
 }
 
 object botellaDeRon{}
